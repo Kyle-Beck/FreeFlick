@@ -1,0 +1,35 @@
+.carousel-margins {
+	margin-bottom: 45px;
+}
+
+.carousel-control-next {
+	margin-right: 1%;
+	padding: 0;
+	width: 5%;
+}
+
+.carousel-control-prev {
+	margin-left: 1%;
+	padding: 0;
+	width: 5%;
+}
+
+.carousel-control {
+	width: 50%
+}
+
+.carousel-control-prev-icon:hover {
+	transform: scale(1.5);
+	z-index: 9999;
+}
+
+.carousel-control-next-icon:hover {
+	transform: scale(1.5);
+	z-index: 9999;
+}
+
+.col-sm {
+	height: 15vw;
+	width: 10vw;
+	max-width: 15vw;
+}

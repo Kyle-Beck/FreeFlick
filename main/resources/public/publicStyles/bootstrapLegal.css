@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC:wght@300&display=swap');
+
+.txt {
+	font-family: 'Spectral SC', serif;
+	color: #EAE6E7;
+}
+
+#disclaimerContainer {
+	margin-left: 20px;
+	margin-right: 40%;
+}
+
+#disclaimer {
+	font-family: 'Spectral SC', serif;
+	font-size: 23px;
+}
+
+h2:hover {
+	color: white;
+}
+
+a:link {
+	text-decoration-color: #EAE6E7;
+}
+
+a:visited {
+	text-decoration-color: #EAE6E7;
+}
+
+a:hover {
+	text-decoration-color: #EAE6E7;
+}
+
+a:active {
+	text-decoration-color: #EAE6E7;
+}
+
+@media ( max-width : 576px) {
+	#disclaimerContainer {
+		margin-right: 5%;
+	}
+}

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+ 
+.navBarRow {
+	align-items: center;
+	background-repeat: no-repeat;
+	background-size: 50px;
+	background-position: left top;
+	height: 100px;
+}
+
+#search-bar {
+	width:30%;
+	margin-right:10px;
+}
+
+.more-button {
+	font-family: 'Arimo', sans-serif;
+	color:#626262;
+	background-color:white;
+}
+
+.more-button:hover {
+	color:white;
+	background-color:black;
+}
+
+.more-button:focus,.more-button:active {
+	outline: none !important;
+	box-shadow: none;
+}
+
+@media screen and (max-width: 558px) {
+  .navBarRow {
+    display: flex;
+  }
+  #search-bar{
+    order: 3;
+  }
+  #search-bar {
+	width:100%;
+	margin-right:10px;
+  }
+  
+  .btn-group{
+  	margin-left:10px;
+  }
+}
+
+@media screen and (max-width: 359px) {
+  #search-bar {
+	margin-bottom:200px;
+  }
+  
+  .btn-group {
+  	margin-right:200px;
+  	margin-bottom: 10px;
+  	margin-left:0px;
+  }
+  
+  .navBarRow{
+  	height: 130px;
+  }
+  
+  .more-button {
+	margin-top: 5px;
+  }	
+}

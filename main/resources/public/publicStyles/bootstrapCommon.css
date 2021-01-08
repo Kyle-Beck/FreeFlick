@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Bungee&display=swap');
+
+body {
+	background-color: #0d1e1b;
+	background-image: linear-gradient(135deg, #355A52, #6ab4a5);
+	background-attachment: fixed;
+}
+
+.container-fluid {
+	width: 90%;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	margin-left: 4.5%;
+	margin-right: 5%;
+}
+
+h1 {
+	display: inline-block;
+	color: #EAE6E7;
+	font-weight: bold;
+	font-family: 'Londrina Shadow', cursive;
+	font-size: 45px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 15px;
+	padding-right: 16px;
+}
+
+h2 {
+	color: #CCD6D4;
+	font-size: 18px;
+	font-family: 'Bungee', cursive;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 15px;
+}
+
+hr {
+	height: 3px;
+	border-width: 0;
+	background-image: linear-gradient(to right, #E3FBF6 75%, #6ab4a5);
+	/*box-shadow: 0px 75px 150px 50px #6ab4a5 ;*/
+}
+
+
+@media ( max-width : 800px) {
+	hr{
+		font-size:100px;
+	}
+}

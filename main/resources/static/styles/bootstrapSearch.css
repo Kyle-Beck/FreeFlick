@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+.searchForm {
+	display: flex;
+	flex-direction: column;
+}
+
+#genre-filter {
+	width: 20vw;
+	min-width:120px;
+	margin-right:10px;
+	max-width:225px;
+}
+
+#start-year{
+	width: 100px;
+	margin-right:10px;
+}
+
+#end-year {
+	width: 100px;
+	margin-right:10px;
+}
+
+#submit-button {
+	font-family: 'Arimo', sans-serif;
+	color:#626262;
+	background-color:white;
+}
+
+#submit-button:hover {
+	color:white;
+	background-color:black;
+}
+
+/* Remove ugly up/down arrows for year filter*/
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+/* Firefox */
+input[type=number] {
+	-moz-appearance: textfield;
+}
+
+
+@media screen and (max-width: 558px) {
+
+	#genre-filter {
+		max-width:1000px;
+		width: 30%;
+		min-width:80px;
+		margin-right:3%;
+		margin-bottom:13px;
+	}
+
+	#start-year{
+		max-width:1000px;
+		width: 30%;
+		min-width:80px;
+		margin-right:3%;
+		margin-left:0%;	
+		margin-bottom:13px;	
+	}
+	
+	#end-year {
+		max-width:1000px;
+		width: 30%;
+		margin-left:0%;	
+		min-width:80px;
+	}
+	
+	#submit {
+		margin-left:0%;
+		padding:0%;
+	}
+}
+
+@media screen and (max-width: 343px) {
+	#genre-filter {
+		width: 50%;
+	}
+
+	#start-year{
+		width: 50%;
+	}
+	
+	#end-year {
+		width: 50%;
+	}
+	
+	#submit {
+		width: 30%;
+	}
+}
+
+

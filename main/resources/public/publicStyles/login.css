@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Londrina+Shadow&family=Bungee&display=swap');
+
+h1 {
+	display: inline-block;
+	color: #EAE6E7;
+	font-size: 45px;
+	font-weight: bold;
+	font-family: 'Londrina Shadow', cursive;
+	margin-bottom: 14%; 
+ 	margin-top:15px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 15px;
+	padding-right: 16px;
+}
+
+body {
+	background-color:  #0d1e1b;
+	background-image: linear-gradient(135deg, #355A52 , #6ab4a5);
+	background-attachment: fixed;
+}
+
+.buttonDiv {
+	text-align:center;
+	
+}
+
+.contentRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom:0px;
+  margin-top:0px;
+  padding:0px;
+}
+
+.loginButton {
+	margin-top: 10px;
+	opacity: 1.0;
+	height: 4.5vw;
+	width: 22.5vw;
+	
+	min-height: 72px;
+	min-width: 360px;
+	
+}
+
+#text1{
+  	margin-top:30px;
+  	margin-bottom:30px;
+  	
+}
+
+#whySignIn{
+	margin: auto;
+  	width: 90%;
+  	max-width: 600px;
+}
+
+#dropDownButton {
+	font-family: 'Arimo', sans-serif;
+	color:#636363;
+	background-color:white;
+}
+
+#dropDownButton:hover {
+	color:white;
+	background-color:black;
+}
+
+#dropDownButton:focus,#dropDownButton:active {
+   outline: none !important;
+   box-shadow: none;
+}
+
+h2 {
+  color:  #CCD6D4 ;
+  font-size: 20px;
+  font-family: 'Bungee', cursive;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+h3 {
+  color:  #CCD6D4 ;
+  font-size: 1vw;
+  font-family: 'Bungee', cursive;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+h4 {
+  color:  #CCD6D4 ;
+  font-size: 3vw;
+  font-family: 'Bungee', cursive;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.loginButton:hover {
+	opacity:0.6;
+}
+
+.moviesImage {
+	width: 70%;
+	height: 42%;
+	margin: 1%;
+  	min-width: 600px;
+  	padding-right:12px;
+}
+
+.movieImages {
+	margin: auto;
+	text-align:center;
+  	width: 45vw;
+  	height: 15vw;
+  	margin-top:10px;
+  	min-width: 600px;
+}
+
+
+.centeredContent {
+	text-align:center;
+	margin: auto;
+  	width: 100%;
+  	margin-bottom: 0px;
+  	margin-top:0px;	
+}
+
+@media(max-width: 600px) {
+	.centeredContent {
+		width:100%;
+	}
+	
+	.loginButton {
+		width:96vw;
+		height:20vw;
+		max-height: 72px;
+		max-width: 360px;
+		min-height: 0px;
+		min-width: 0px;
+	}
+	
+	.moviesImage {
+		width:100%;
+		margin-left:0px;
+		min-width:0px;
+		min-height:0px;
+		padding-right:1%;
+		
+	}
+	
+	.movieImages {
+		width:90%;
+		min-width:0px;
+		min-height:0px;
+	}
+	
+	#whySignIn{
+		margin: auto;
+  		width: 94%;
+	}
+
+}
+
+
